@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rubik Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <h1>🧩 Rubik Solver</h1>
+    <p class="subtitle">Solve your Rubik’s Cube using smart algorithms</p>
+
+    <!-- Scramble section -->
+    <div class="card">
+        <h2>Scramble Cube</h2>
+        <input type="number" id="steps" placeholder="Enter steps (e.g. 10)">
+        <button onclick="scramble()">Scramble</button>
+    </div>
+
+    <!-- Solve section -->
+    <div class="card">
+        <h2>Solve Cube</h2>
+        <input type="text" id="cubeState" placeholder="Cube state will appear here">
+        <button onclick="solve()">Solve</button>
+    </div>
+
+    <!-- Result section -->
+    <div class="result-card">
+        <h2>Result</h2>
+        <pre id="output">Waiting for input...</pre>
+    </div>
+
+</div>
+
+<!-- IMPORTANT: JS must be loaded AFTER HTML -->
+<script src="script.js"></script>
+
+</body>
+</html>

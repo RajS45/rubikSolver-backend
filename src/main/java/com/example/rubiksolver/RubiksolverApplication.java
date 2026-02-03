@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RubiksolverApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(RubiksolverApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(RubiksolverApplication.class, args);
+    }
 }
